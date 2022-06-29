@@ -30,7 +30,7 @@ const sendMessage = () => {
 
     var apitBot = 'bot5381326320:AAG07R_ARBkUNU9w7kjLjcHTLw7ePSVFtXI';
     var chatId = '1352459197';
-    var message = 'Sua casa está sendo invada!!!';
+    var message = 'Sua casa está sendo invadida!!!';
 
     var xhr = new XMLHttpRequest();
     var url = "https://api.telegram.org/" + apitBot + "/sendmessage?chat_id=" + chatId + "&parse_mode=Markdown&text=" + message + "";
